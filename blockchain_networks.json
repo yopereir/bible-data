@@ -1,12 +1,30 @@
 [
     {
+        "displayName": "Polygon Mumbai",
         "name": "polygon-mumbai",
-        "rpc": "https://rpc-mumbai.maticvigil.com",
+        "chainId": "0x13881",
+        "chainName": "Mumbai",
+        "rpc": ["https://rpc-mumbai.maticvigil.com","https://matic-mumbai.chainstacklabs.com"],
+        "nativeCurrency": {
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18
+        },
+        "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
         "contractAddress": "0xfded1e73b71c1cc2f177789bcc0db3fa55912eda"
     },
     {
+        "displaynName": "Ethereum Goerli",
         "name": "ethereum-goerli",
-        "rpc": "https://goerli.infura.io/v3/",
+        "chainId": "0x5",
+        "chainName": "Goerli Test Network",
+        "rpc": ["https://goerli.infura.io/v3/"],
+        "nativeCurrency": {
+            "name": "GoerliETH",
+            "symbol": "GoerliETH",
+            "decimals": 18
+        },
+        "blockExplorerUrls": ["https://goerli.etherscan.io"],
         "contractAddress": "0x4ef8810EDBce8eC4E3B341d0f00078B99f3Ac49a"
     }
 ]
