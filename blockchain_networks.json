@@ -1,5 +1,19 @@
 [
     {
+        "displayName": "Polygon",
+        "name": "polygon-mainnet",
+        "chainId": "0x89",
+        "chainName": "Mainnet",
+        "rpc": ["https://polygon-rpc.com"],
+        "nativeCurrency": {
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18
+        },
+        "blockExplorerUrls": ["https://polygonscan.com/"],
+        "contractAddress": "0xeBfdB44B2937265d5325Bd47856C61313BC1570e"
+    },
+    {
         "displayName": "Polygon Mumbai",
         "name": "polygon-mumbai",
         "chainId": "0x13881",
