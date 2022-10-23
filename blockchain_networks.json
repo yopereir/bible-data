@@ -11,7 +11,7 @@
             "decimals": 18
         },
         "blockExplorerUrls": ["https://polygonscan.com/"],
-        "contractAddress": "0xeBfdB44B2937265d5325Bd47856C61313BC1570e"
+        "contractAddress": "0x79e42561D4FB2bF64003d88ef087fd195d7F715C"
     },
     {
         "displayName": "Polygon Mumbai",
