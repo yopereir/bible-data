@@ -4,7 +4,7 @@
         "name": "polygon-mainnet",
         "chainId": "0x89",
         "chainName": "Polygon Mainnet",
-        "rpc": ["https://polygon-mainnet.infura.io"],
+        "rpc": ["https://polygon-mainnet.infura.io","https://polygon-rpc.com"],
         "nativeCurrency": {
             "name": "MATIC",
             "symbol": "MATIC",
